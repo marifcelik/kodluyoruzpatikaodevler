@@ -1,2 +1,2 @@
-# kodluyoruzpatikaodevler
- kodluyoruzpatikaodevler
+# Ödevler
+ patika sitesindeki modüller için ödevler
