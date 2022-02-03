@@ -29,7 +29,11 @@ p{
     margin: 20px auto;
 }
 
-h3 + ul{
+h4 {
+    color: #8b008b;
+}
+
+h4 + ul{
     list-style-position: inside;
     text-align: center;
 }
