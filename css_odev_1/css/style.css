@@ -24,7 +24,12 @@ nav ul{
     align-items: center;
 }
 
-p + ul{
+p{
+    width: 70%;
+    margin: 20px auto;
+}
+
+h3 + ul{
     list-style-position: inside;
     text-align: center;
 }
