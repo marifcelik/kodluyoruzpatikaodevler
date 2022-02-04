@@ -24,6 +24,11 @@ nav ul{
     align-items: center;
 }
 
+h2{
+    margin: 20px 0;
+    color: #8b008b;
+}
+
 p{
     width: 70%;
     margin: 20px auto;
