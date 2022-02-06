@@ -1,15 +1,15 @@
-*{
+* {
     margin: 0;
     padding: 0;
     outline: none;
 }
 
-body{
+body {
     text-align: center;
     padding-top: 8px;
 }
 
-.arama{
+.arama {
     width: 89%;
     height: 77px;
     margin: 0 auto 0;
@@ -17,21 +17,21 @@ body{
     padding-top: 3px;
 }
 
-.arama input{
+.arama input {
     width: 260px;
     height: 18px;
 }
 
-button{
+button {
     padding: 1.5px 3px;
 }
 
-.kutular{
+.kutular {
     width: 89%;
     margin: 4px auto 50px;
 }
 
-.kutu1{
+.kutu1 {
     float: left;
     width: 38.8%;
     height: 77px;
@@ -39,11 +39,11 @@ button{
     margin-right: 0.2%;
 }
 
-.kutu1 *:first-child{
+.kutu1 *:first-child {
     margin-top: 10px;
 }
 
-.kutu2{
+.kutu2 {
     font-size: 13px;
     float: left;
     width: 22%;
@@ -52,12 +52,12 @@ button{
     background-color: #70ccc2;
 }
 
-.kutu2 *:first-child{
+.kutu2 *:first-child {
     display: inline-block;
     margin-top: 9px;
 }
 
-.kutu3{
+.kutu3 {
     font-size: 13px;
     float: left;
     width: 38.8%;
@@ -65,15 +65,15 @@ button{
     background-color: #62b3aa;
 }
 
-.kutu3 input{
+.kutu3 input {
     height: 18px;
 }
 
-.kutu3 button{
+.kutu3 button {
     margin-right: 10px;
 }
 
-.cp{
+.cp {
     font-size: 13px;
     margin-top: 90px;
 }
