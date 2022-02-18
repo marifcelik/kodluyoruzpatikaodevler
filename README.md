@@ -1,2 +1,2 @@
 # Ödevler
- patika sitesindeki modüller için ödevler
+ patika modülleri için yaptığım ödevler
