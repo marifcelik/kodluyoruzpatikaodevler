@@ -22,7 +22,7 @@ body {
 
 /* ÜST KISIM */
 
-ul {
+nav ul {
     flex-wrap: wrap;
     flex-direction: row-reverse;
     padding: 10px 12px;
@@ -89,17 +89,17 @@ a:hover {
    margini % olarak vermeyi denedim */
 .container {
     width: 100%;
-    margin-top: 59px;
+    margin-top: 69.5px;
     text-align: center;
 }
 
 .search-div {
     flex-wrap: wrap;
     width: 70%;
-    max-width: 582.4px;
-    height: 44px;
+    max-width: 584px;
+    height: 46px;
     margin: 23px auto 0;
-    border: 1.5px solid #e6e8eb;
+    border: 1.5px solid #dfe1e5;
     border-radius: 24px;
     user-select: none;
 }
@@ -116,7 +116,7 @@ a:hover {
     height: 40px;
 }
 
-.b-div svg {
+.b-div label svg {
     width: 20px;
     height: 20px;
     margin: 9.5px auto;
@@ -124,8 +124,8 @@ a:hover {
 }
 
 #ara {
-    width: 84%;
-    height: 95%;
+    width: 77%;
+    height: 98%;
     user-select: auto;
     border: none;
     font-size: 16px;
@@ -136,6 +136,18 @@ a:hover {
     width: 40px;
     height: 44px;
     cursor: pointer;
+}
+
+.sesli {
+    text-align: center;
+    width: 35px;
+    height: 40px;
+}
+
+.sesli svg {
+    width: 24px;
+    height: 24px;
+    margin-top: 7px;
 }
 
 .buttons {
@@ -173,19 +185,56 @@ button:hover {
 /* FOOTER */
 
 footer {
+    width: 100%;
     background-color: #f2f2f2;
     color: #7d8186;
 }
 
-.f-ust {}
+.f-ust {
+    height: 48.6px;
+    font-size: 15px;
+    border-bottom: 1px solid #dadce0;
+    padding: 15px 30px;
+}
 
-.f-alt {}
+.f-alt {
+    height: 48px;
+    padding: 0 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.alt1,
+.alt2,
+.alt3 {
+    justify-content: center;
+    height: 100%;
+    border: 1px solid #000;
+}
+
+.alt1 {
+    order: 1;
+}
+
+.alt2 {
+    order: 2;
+}
+
+.alt3 {
+    order: 3;
+}
 
 .f-alt ul {
     flex-direction: row;
 }
 
 .f-alt a {
-    color: #7d8186;
+    color: #70757a;
+    font-size: 14px;
     text-decoration: none;
+    padding: 15px;
+}
+
+.f-alt a:hover {
+    text-decoration: underline;
 }
