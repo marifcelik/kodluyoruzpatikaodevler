@@ -99,7 +99,7 @@ a:hover {
     max-width: 584px;
     height: 46px;
     margin: 23px auto 0;
-    border: 1.5px solid #dfe1e5;
+    border: 1px solid #dfe1e5;
     border-radius: 24px;
     user-select: none;
 }
@@ -175,7 +175,7 @@ button {
 
 /* buton üstüne gelince borderdan dolayı butonun yüksekliği ve genişliği
    artıyor, marginden dolayı da butonlar hareket ediyor.
-   margin düşürmeyi denedim */
+   hover olduğunda margini düşürmeyi denedim */
 button:hover {
     background-color: #f8f9fa;
     border: 1px solid #dadce0;
@@ -185,6 +185,8 @@ button:hover {
 /* FOOTER */
 
 footer {
+    position: fixed;
+    bottom: 0;
     width: 100%;
     background-color: #f2f2f2;
     color: #7d8186;
@@ -204,26 +206,6 @@ footer {
     justify-content: space-between;
 }
 
-.alt1,
-.alt2,
-.alt3 {
-    justify-content: center;
-    height: 100%;
-    border: 1px solid #000;
-}
-
-.alt1 {
-    order: 1;
-}
-
-.alt2 {
-    order: 2;
-}
-
-.alt3 {
-    order: 3;
-}
-
 .f-alt ul {
     flex-direction: row;
 }
@@ -237,4 +219,34 @@ footer {
 
 .f-alt a:hover {
     text-decoration: underline;
+}
+
+.alt1,
+.alt2,
+.alt3 {
+    height: 100%;
+}
+
+.alt1 {
+    justify-content: flex-start;
+    width: 30%;
+}
+
+.alt2 {
+    margin: 0 auto;
+}
+
+.alt2 a{
+    padding-left: 6px;
+    margin: 0;
+}
+
+.alt2 img {
+    width: 12.25px;
+    height: 14px;
+}
+
+.alt3 {
+    justify-content: flex-end;
+    width: 30%;
 }
