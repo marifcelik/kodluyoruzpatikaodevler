@@ -1,0 +1,35 @@
+
+body {
+    height: 100%;
+    background-color: #36393f;
+    text-align: center;
+    font-family: Ubuntu, Roboto, 'sans-serif';
+    color: floralwhite;
+}
+
+h1 {
+    margin: 70px 0 50px;
+}
+
+.saat {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 30%;
+    padding: 50px;
+    margin: auto;
+    background-color: floralwhite;
+    border-radius: 20px;
+}
+
+.sdiv {
+    color: #36393f;
+    font-size: 50px;
+}
+
+p {
+    font-size: 20px;
+    margin-top: 50px;
+}
