@@ -5,7 +5,7 @@ setInterval(() => {
         saniye = date.getSeconds()
 
     document.querySelector('.hour').textContent = saat;
-    document.querySelector('.minute').textContent = dakika;
+    dakika < 10 ? document.querySelector('.minute').textContent = '0' + dakika : document.querySelector('.minute').textContent = dakika;
     saniye < 10 ? document.querySelector('.second').textContent = '0' + saniye : document.querySelector('.second').textContent = saniye;
 }, 1000)
 
