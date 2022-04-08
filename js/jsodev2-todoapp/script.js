@@ -88,7 +88,7 @@ function doneItem(item) {
         yapilanlar.push(doned);
         yapilacaklar.splice(yapilacaklar.indexOf(doned), 1);
         parent.classList.add('done');
-        notBoxShow('görev yapıldı');
+        notBoxShow('işlem yapıldı');
     }
     else {
         yapilacaklar.push(doned);
