@@ -81,6 +81,7 @@ body .container ul li {
   border-radius: 7px;
   color: #fff;
   list-style: none;
+  transition: 500ms background-color;
 }
 body .container ul li P {
   -webkit-hyphens: auto;
