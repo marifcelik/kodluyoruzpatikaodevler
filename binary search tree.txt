@@ -1,6 +1,0 @@
-root 4 tür sağında 7, solunda 2 vardır
-    7' nin solunda 5, sağında 9 vardır
-        5' in sağında 6 vardır
-        9' un solunda 8 vardır       
-    2' nin solunda 1, sağında 3 vardır
-        1' in solunda 0 vardır
