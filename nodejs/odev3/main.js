@@ -1,6 +1,6 @@
 const circle = require('./circle');
-
-const alan = circle.area(5);
-const cevre = circle.circumference(5);
+let deger = process.argv[2] || 5
+const alan = circle.area(deger);
+const cevre = circle.circumference(deger);
 
 console.log(`alan : ${alan}\ncevre : ${cevre}`);
