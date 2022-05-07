@@ -12,10 +12,7 @@ const sayfalar = {
 const server = http.createServer((req, res) => {
     res.writeHead(200, { 'Content-type': 'text/html; charset=utf-8' });
     let url = req.url;
-    if (sayfalar[url])
-        res.write(sayfalar[url]);
-    else
-        res.write('<h2>404</h2>')
+    res.write(sayfalar[url] || '<h2>404 sayfa bulunamadı</h2>');
     res.end();
 });
 
