@@ -10,10 +10,10 @@ const sayfalar =
     '/iletisim': '<h1>iletişim sayfası</h1>'
 }
 
-app.use((ctx => {
+app.use(ctx => {
     let url = ctx.URL.pathname.toString();
     console.log(url);
     ctx.body = sayfalar[url] || '<h1>404 sayfa bulunamadı</h1>'
-}));
+});
 
 app.listen(port);
